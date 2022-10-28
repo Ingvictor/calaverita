@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+
+  @font-face{
+    font-family: HARRYP;
+    src: url("/HARRYP__.TTF");
+  
+  }
+  
+  .imagen{
+    background-image: url('dad-grass-6688541_640.jpg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    height: 30vh;
+    width: 100%
+  }
+  
+  .cuerpo{
+    margin: 10px 30px;
+  }
+  
+  .cuerpo h1{
+    text-align: center;
+    font-family: HARRYP;
+    src: url("/HARRYP__.TTF");
+    font-size: 40px;
+  }
+  
+  .cuerpo p{
+    text-align: justify;
+  }
+  
+  .cuerpo ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
